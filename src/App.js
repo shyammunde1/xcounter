@@ -1,9 +1,10 @@
+import Counter from "./Counter.component";
 
 
 function App() {
   return (
     <>
-      <h1>counter app</h1>
+      <Counter />
     </>
   );
 }
