@@ -14,7 +14,7 @@ const Counter = () => {
     <div>
       <h1>Counter App</h1>
       <div style={{ margin: "10px" }}>
-        <span>Count:{count}</span>
+        <p>Count: {count}</p>
       </div>
       <div style={{ margin: "10px" }}>
         <button onClick={incremntHandler}>Increment</button>
